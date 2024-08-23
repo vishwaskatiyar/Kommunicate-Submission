@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  padding: 2rem 3rem;
+  border-radius: 0 1000px 50px 0;
+  width: 70%;
+  max-width: 800px;
+  height: 25vh;
+  box-shadow: 0 0 3px #7dd32d;
+  position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -30px;
+  bottom: -30px;
+  width: 2px;
+  background-color: black;
+}
+
+.content {
+  margin-left: 2rem;
+}
+
+.content p {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.highlight {
+  color: #5553b7;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 1.5rem;
+}
+
+button {
+  height: 36px;
+  border: none;
+  border-radius: 18px;
+  padding: 0 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.try-free {
+  background-color: #2dd35c;
+  color: white;
+  margin-right: 1rem;
+}
+
+.try-free:hover {
+  background-color: #26b94f;
+}
+
+.book-demo {
+  background-color: white;
+  color: #5553b7;
+  border: 2px solid #5553b7;
+}
+
+.book-demo:hover {
+  background-color: #ececff;
+}
+
+.shape {
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  width: 500px;
+  height: 150px;
+  border-radius: 1000px 0 0 50px;
+  background-color: hwb(248 83% 5%);
+  z-index: -1;
+  backdrop-filter: blur(10px);
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    height: 30vh;
+  }
+
+  .content {
+    margin-left: 1rem;
+  }
+
+  .content p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+    height: auto;
+  }
+
+  .content {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .shape {
+    width: 90%;
+    left: 5%;
+    height: 120px;
+    top: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .content p {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 0 0.8rem;
+  }
+
+  .shape {
+    height: 80px;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    border-radius: 50px 0 0 25px;
+  }
+}
