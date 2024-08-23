@@ -110,8 +110,10 @@ This project mimics the core functionalities of Twitter, providing a platform wh
 
 
 To run this project locally, follow these steps:
+  
 ### Hosted Link
-You can view the live project [here]((https://twitter-clone-full-stack-1.onrender.com/)).
+You can view the live project [here](https://twitter-clone-full-stack-1.onrender.com/).
+
 
 1.  Repository Details:
    ```bash
