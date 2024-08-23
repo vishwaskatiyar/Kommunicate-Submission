@@ -107,14 +107,18 @@ This project mimics the core functionalities of Twitter, providing a platform wh
 - **Real-Time Interaction:** Gained insights into handling asynchronous operations through implementing features like comments and user interactions.
 - **User Experience Design:** Focused on creating an intuitive and engaging user experience, learning about state management and component architecture in React.
 
-## Installation
+
 
 To run this project locally, follow these steps:
+### Hosted Link
+You can view the live project [here]((https://twitter-clone-full-stack-1.onrender.com/)).
 
 1.  Repository Details:
    ```bash
    git clone <[(https://github.com/vishwaskatiyar/Twitter-clone-Full-Stack.git)>
    git repositoryLink <(https://github.com/vishwaskatiyar/Twitter-clone-Full-Stack)>
-   git hostedLink<(https://twitter-clone-full-stack-1.onrender.com/)>
+
+
+  
 
 
