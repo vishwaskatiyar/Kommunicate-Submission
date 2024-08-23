@@ -1,4 +1,3 @@
-# E-commerce Store UI Design
 
 ## Question 1
 
